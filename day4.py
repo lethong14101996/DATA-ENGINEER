@@ -31,5 +31,5 @@ for user in mydata:
    if "id" in user:
         if user["id"] == 2:
             selected_user=user
-print (selected_user)            
+print (selected_user["name"])            
         
