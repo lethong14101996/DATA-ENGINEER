@@ -22,13 +22,17 @@ def format_msg(my_name, my_address):
     return msg_message
 format_msg("thu le","HCM")
 
-name = ["thuan","thuy","thong","thu"]
-for i in name:
-    format_msg(i, "vinhlong \n")
 
 
+def format_msg2(my_name, my_address= None):
+    msg_message = msg_template.format(name=my_name, address=my_address)
+    print(msg_message)
+    return msg_message
 
 
+#name = ["thuan","thuy","thong","thu"]
+#for i in name:
+#   format_msg(i, "vinhlong \n")
 
 
 
