@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 username = 'thong.lequoc@thegioididong.com'
 password = 'Lethong@1410!((^'
 
-def send_mail(text='Email Body', subject='Hello World', from_email='Steven Lee <thong.lequoc@thegioididong.com>',to_emails=None, html=None):
+def send_mail(text='Email Body', subject='Hello World', from_email='Steven Lee <thong.lequoc@thegioidididong.com>', to_emails=None, html=None):
     assert isinstance(to_emails, list)
     msg = MIMEMultipart('alternative')
     msg['From'] = from_email
@@ -28,4 +28,4 @@ def send_mail(text='Email Body', subject='Hello World', from_email='Steven Lee <
     # with smtplib.SMTP() as server:
     #     server.login()
     #     pass
-send_mail(to_emails=["thong.lequoc@bachhoaxanh.com", "lethong14101996@gmail.com"],html="<h1>SENDING SUCCESS</h1>")
+send_mail(to_emails=["5379@itmwg.vn","lethong14101996@gmail.com"],html="<h1h>SENDING SUCCESS MAIL</h1>")
